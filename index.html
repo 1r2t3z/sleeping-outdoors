@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Sleeping Outdoors</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <header style="background-image: url(./assets/img/main-banner.webp);">
+        <nav>
+            <ul class="menu cf">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li><a>About us</a>
+                    <ul class="submenu">
+                        <li><a href="terms.html">Terms</a></li>
+                        <li><a href="team.html">Our team</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <h1 class="main-header text-center">Sleeping outdoors</h1>
+        <div class="scroll-to-continue text-center"><a href="#main" class="">
+                <p class="mb-0" id="scroll">Scroll to continue...</p>
+                <i class="bi bi-arrow-down" style="font-size: 1rem;"></i>
+            </a></div>
+    </header>
+
+    <main id="main">
+        <div class="login-box">
+            <form>
+                <div class="nights d-flex mb-4">
+                    <div class="non-image ml-4 mt-1 res no-margin">
+                        <div class="text">
+                            <h3>How many nights?</h3>
+                            <p class="text-area">The first question to ask yourself is how many nights you plan to spend
+                                sleeping outdoors. Are you
+                                looking for a quick weekend getaway or a longer expedition? This will determine the type
+                                of
+                                equipment
+                                you'll need and the level of comfort you desire.</p>
+                        </div>
+
+                        <div class="user-box mt-2">
+                            <label for="nights"><i class="bi bi-moon-stars"></i> Nights: </label>
+                            <input type="number" id="nights" required><br><br>
+                        </div>
+                    </div>
+                    <div class="image ml-4">
+                        <img src="./assets/img/banner-1.jpg" alt="Night Sky Banner" class="w-75 rounded-2 i-border">
+                    </div>
+                </div>
+                <div class="season d-flex mb-4">
+                    <div class="image mr-5">
+                        <img src="./assets/img/banner-2.jpg" alt="Sample" class="w-100 rounded-2 i-border">
+                    </div>
+                    <div class="non-image mr-4 no-margin">
+                        <div class="text">
+                            <h3>Which part of the year?</h3>
+                            <p class="text-area">The time of year plays a crucial role in planning your outdoor sleeping
+                                experience.
+                                Are you a fan of
+                                warm
+                                summer nights or do you prefer the crisp air of autumn? Consider the weather conditions,
+                                temperature
+                                fluctuations, and any potential challenges that may arise during different seasons.</p>
+                        </div>
+
+                        <div class="user-box">
+                            <label for="season"><i class="bi bi-tornado"></i> Season: </label>
+                            <input type="text" id="season" required><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="budget d-flex mb-4">
+                    <div class="non-image ml-4 res no-margin">
+                        <div class="text">
+                            <h3>How much are you willing to spent?</h3>
+                            <p class="text-area">Budget is an important factor to consider when deciding on your outdoor
+                                sleeping
+                                arrangements. Are
+                                you willing to invest in high-quality gear for long-term use, or are you looking for
+                                more affordable
+                                options? Keep in mind that investing in durable equipment can enhance your overall
+                                experience and
+                                provide better comfort and safety.</p>
+                        </div>
+                        <div class="user-box">
+                            <label for="budget"><i class="bi bi-cash-coin"></i> Budget:</label>
+                            <input type="number" id="budget" required><br><br>
+                        </div>
+                    </div>
+                    <div class="image ml-4">
+                        <img src="./assets/img/banner-3.jpg" alt="Sample" class="w-75 rounded-2 i-border">
+                    </div>
+                </div>
+                <hr>
+                <div class="final center" id="finish">
+                    <h3 id="text"></h3>
+                    <a href="#finish" onclick="generateList(); return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Generate packing list!
+                    </a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="row mb-2">
+                <ul class="">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="#" id="myLink">Source</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="center"><i>Some images, parts of text or code and other, may be inspired by other people or
+                    works.
+                    However, they are always modified, reworked or used with the permission of the author.</i><br>
+                <p>Made with ❤️ by <a href="https://1r2t3z.me/" class="f-adown" style="color: #ffff;"> Karel Ježek </a>
+                    | © 2024 - All rights
+                    reserved</p>
+            </div>
+            <div id="myPopup" class="myPopup">
+                <h3 class="f-adown">Resources</h3>
+                <p>All text on this page is from the author's archive, which means that everything listed here is the
+                    author's knowledge, assumptions and judgments. However, it should still be consistent with valid
+                    sources
+                    such as <a href="https://w.wiki/3jNT" class="f-adown"> Wikipedia </a> or other popular articles.</p>
+                <hr>
+                <p class="f-adown">Night sky -<a
+                        href="https://www.pexels.com/photo/northern-lights-over-mountain-and-forest-4388593/">Pexels
+                        @Redy</a>
+                </p><br><br>
+                <p class="f-adown">De Montanha -<a
+                        href="https://www.pexels.com/pt-br/foto/fotografia-de-paisagem-de-montanhas-cobertas-de-neve-691668/">Pexels
+                        @eberrhard</a>
+                </p><br><br>
+                <p class="f-adown">Backpack and Dog -<a
+                        href="from Pexels: https://www.pexels.com/photo/tan-german-shepherd-lying-beside-backpack-2071548/">Pexels
+                        @rrina</a>
+                </p><br><br>
+                <p class="f-adown">Sunset art -<a>Unknown Author</a>
+                </p><button id="closePopup" class="btn-primary"
+                    style="max-height:35px;position:absolute;top: 7.5%;right:5%"><i class="bi bi-x-lg"
+                        style="font-size: 15px;"></i></button>
+            </div>
+            <div id="myPopupMobile" class="myPopup">
+                <h3>Loading Sources failed</h3>
+                <p>It looks like your on a mobile...</p>
+                <p>Try to comeback later on PC!</p><button id="closePopupMobile" class="btn-primary"
+                    style="max-height:45px"><i class="bi bi-x-lg" style="font-size: 15px;"></i></button>
+            </div>
+        </footer>
+    </main>
+    <script src="./assets/js/sourcepopup.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/title.js"></script>
+    <script src="./assets/js/animate.js"></script>
+    <script src="./assets/js/type.js"></script>
+</body>
+
+</html>
